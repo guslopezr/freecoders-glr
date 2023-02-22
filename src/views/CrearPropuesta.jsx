@@ -12,7 +12,7 @@ import RedactarPropuesta2 from './viewscrearpropuesta/RedactarPropuesta2';
 import RedactarPropuesta3 from './viewscrearpropuesta/RedactarPropuesta3';
 
 
-export default function CrearPerfil() {
+export default function CrearPropuesta() {
   const [isSaving, setIsSaving] = useState(false);
 
   const handleSaveClick = () => {

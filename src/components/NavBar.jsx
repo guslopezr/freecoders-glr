@@ -27,6 +27,10 @@ export default function NavBar() {
               <NavLink className={setActiveClass} to="/crearpropuesta">
                   Crear Propuesta
               </NavLink>
+              <NavLink className={setActiveClass} to="/abonarpropuesta">
+                  Abonar Propuesta
+              </NavLink>
+
 
             </Nav>
       </Navbar>

@@ -6,6 +6,9 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Badge from "react-bootstrap/Badge";
 import { Form, Button } from "react-bootstrap";
 import RangeSlider from 'react-bootstrap-range-slider';
+//import '../assets/css/estilocrearperfil.css';
+
+
 
 export default function CrearDatosPerfil() {
   const [rate, setRate] = useState(10);
