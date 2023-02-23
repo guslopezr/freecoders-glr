@@ -32,7 +32,7 @@ function ImportarDatosCliente() {
   };
 
   return (
-    <div>
+    <div className='maincontainer' >
       <h2>Descripción breve del proyecto</h2>
       <textarea value={explanation} onChange={handleExplanationChange} />
 

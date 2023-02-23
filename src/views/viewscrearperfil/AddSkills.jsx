@@ -59,7 +59,9 @@ export default function AddSkills() {
   };
 
   return (
-    <div>
+    <div className='maincontainer' >
+      <h2>Ingresa tus skills más relevantes</h2>
+
       <h3>Lenguajes de programación</h3>
       {languages.map(language => (
         <Form.Check

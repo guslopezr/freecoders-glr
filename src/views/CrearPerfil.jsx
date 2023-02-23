@@ -22,15 +22,15 @@ export default function CrearPerfil() {
   };
 
   return (
-    <div>
+    <div className='maincontainer' >
       <div>{<CrearDatosPerfil />}</div>
       <div>{<AddSkills />}</div>
       <div>{<CrearPortafolio />}</div>
       <div>{<CrearRepo />}</div>
       <div>{<CrearOfertaValor />}</div>
       <div className="text-center mt-4">
-        <Button onClick={handleSaveClick} disabled={isSaving}>
-          {isSaving ? 'Saving...' : 'Save Changes'}
+        <Button id='button-crearperfil' onClick={handleSaveClick} disabled={isSaving}>
+          {isSaving ? 'Saving...' : 'Guardar todos los cambios'}
         </Button>
       </div>
     </div>

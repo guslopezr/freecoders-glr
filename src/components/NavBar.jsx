@@ -1,9 +1,9 @@
+ 
+
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-//import "../assets/css/Navbar.css"
-//import pokelocator from "../assets/img/pokelocator.png"
 
 export default function NavBar() {
 
@@ -11,23 +11,21 @@ export default function NavBar() {
 
     return (
 
-      <Navbar className="form-navbar" bg="" variant="">
+      <Navbar className="form-navbar" bg="" variant="tabs">
         <div className="form-cont-img-nav">
 
-{/*           <img className="form-img-nav" src={pokelocator} alt="" />
- */}
         </div>
-          <Nav className=" justify-content-end container me-auto">
-              <NavLink className={setActiveClass} to="/">
+          <Nav className="justify-content-around container me-auto">
+              <NavLink id="main-nav" className={setActiveClass} to="/">
                   Principal
               </NavLink>
-              <NavLink className={setActiveClass} to="/crearperfil">
+              <NavLink id="main-nav" className={setActiveClass} to="/crearperfil">
                   Crear Perfil
               </NavLink>
-              <NavLink className={setActiveClass} to="/crearpropuesta">
+              <NavLink id="main-nav" className={setActiveClass} to="/crearpropuesta">
                   Crear Propuesta
               </NavLink>
-              <NavLink className={setActiveClass} to="/abonarpropuesta">
+              <NavLink  id="main-nav" className={setActiveClass} to="/abonarpropuesta">
                   Abonar Propuesta
               </NavLink>
 
@@ -36,4 +34,4 @@ export default function NavBar() {
       </Navbar>
 
     );
-}
+} 

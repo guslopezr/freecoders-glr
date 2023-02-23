@@ -19,12 +19,12 @@ export default function AbonarPropuesta() {
   };
 
   return (
-    <div>
-      <div>{<AbonarPropuesta1/>}</div>
-      <div>{<AbonarPropuesta2/>}</div>
+    <div className='maincontainer'>
+      <div className='maincontainer' >{<AbonarPropuesta1/>}</div>
+      <div className='maincontainer'>{<AbonarPropuesta2/>}</div>
 
-      <div className="text-center mt-4">
-        <Button onClick={handleSaveClick} disabled={isSaving}>
+      <div className="maincontainer text-center mt-4">
+        <Button id='button-crearperfil'  onClick={handleSaveClick} disabled={isSaving}>
           {isSaving ? 'Guardando...' : 'Enviar Abono'}
         </Button>
       </div>

@@ -24,7 +24,7 @@ export default function CrearPropuesta() {
   };
 
   return (
-    <div>
+    <div className='maincontainer' >
       <div>{<CrearPropInicio />}</div>
       <div>{<ImportarDatosCliente />}</div>
       <div>{<RedactarPropuesta1 />}</div>
@@ -32,7 +32,7 @@ export default function CrearPropuesta() {
       <div>{<RedactarPropuesta3 />}</div>
 
       <div className="text-center mt-4">
-        <Button onClick={handleSaveClick} disabled={isSaving}>
+        <Button id='button-crearperfil' onClick={handleSaveClick} disabled={isSaving}>
           {isSaving ? 'Saving...' : 'Guardar Cambios'}
         </Button>
       </div>

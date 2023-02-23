@@ -20,7 +20,7 @@ function RedactarPropuesta1() {
   }
 
   return (
-    <div>
+    <div className='maincontainer' >
       <h2>Ingresa acá los detalles de tu propuesta</h2>
       <form onSubmit={handleSubmit}>
         <div>

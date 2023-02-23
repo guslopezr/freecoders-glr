@@ -12,9 +12,9 @@ function CrearPropInicio() {
   }, []);
 
   return (
-    <div>
-      <p>Hola Freecoder {name}</p>
-      <p>El cliente {client}, ha enviado una solicitud.</p>
+    <div className='maincontainer' >
+      <h2>Hola Freecoder "{name}"</h2>
+      <p>El cliente "{client}", ha enviado una solicitud.</p>
     </div>
   );
 }

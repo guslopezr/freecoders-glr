@@ -14,11 +14,14 @@ function AbonarPropuesta2() {
   };
 
   return (
-    <div style={{ backgroundColor: 'lightgrey' }}>
+    <div className='maincontainer' style={{ backgroundColor: '#E4E4E4' }}>
       <h3>Subir comprobante de la transferencia</h3>
+      
+      <div className='maincontainer' >
       <label>
-        <input type="file" accept=".pdf,.doc,.docx,.png,.jpg,.jpeg" onChange={handleFileChange} />
+        <input type="file"  accept=".pdf,.doc,.docx,.png,.jpg,.jpeg" onChange={handleFileChange} />
       </label>
+      </div>
       <p>{selectedFile ? selectedFile.name : 'Archivo no subido'}</p>
     </div>
   );

@@ -21,7 +21,7 @@ function RedactarPropuesta3() {
   };
 
   return (
-    <div>
+    <div className="maincontainer">
       <div>
         <h3>Otras Tecnologías a utilizar</h3>
         <textarea
@@ -73,7 +73,7 @@ function RedactarPropuesta3() {
           onChange={(e) => setValue(e.target.value)}
         />
       </div>
-      <button onClick={handleSave}>Guardar datos</button>
+      <button  type="submit" onClick={handleSave}>Guardar datos</button>
     </div>
   );
 }

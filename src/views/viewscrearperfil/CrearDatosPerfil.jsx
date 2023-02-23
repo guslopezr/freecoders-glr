@@ -11,7 +11,7 @@ import RangeSlider from 'react-bootstrap-range-slider';
 
 
 export default function CrearDatosPerfil() {
-  const [rate, setRate] = useState(10);
+  const [rate, setRate] = useState(10000);
 
   const handleRateChange = (event) => {
     setRate(event.target.value);
@@ -19,6 +19,10 @@ export default function CrearDatosPerfil() {
 
   return (
     <Form>
+<div>
+  <h2>Ingresa tus datos para crear tu perfil</h2>
+</div>
+
       <Form.Group controlId="formName">
         <Form.Label>Nombre</Form.Label>
         <Form.Control type="text" placeholder="Agregar nombre" />
@@ -56,7 +60,7 @@ export default function CrearDatosPerfil() {
       </Form.Group>
 
       <Button variant="primary" type="submit">
-        Registrar
+        Guardar datos
       </Button>
     </Form>
   );
