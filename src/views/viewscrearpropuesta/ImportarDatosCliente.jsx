@@ -34,46 +34,18 @@ function ImportarDatosCliente() {
   return (
     <div className='maincontainer' >
       <h2>Descripción breve del proyecto</h2>
-      <textarea value={explanation} onChange={handleExplanationChange} />
+      <textarea className='my-textarea' value={explanation} onChange={handleExplanationChange} />
 
       <h3>Stack requerido</h3>
-      <textarea value={requiredStack} onChange={handleRequiredStackChange} />
+      <textarea className='my-textarea' value={requiredStack} onChange={handleRequiredStackChange} />
 
       <h3>Comentarios del cliente</h3>
-      <textarea value={clientComments} onChange={handleClientCommentsChange} />
+      <textarea className='my-textarea' value={clientComments} onChange={handleClientCommentsChange} />
 
       <h3>Enlace externo con documento de apoyo enviado por el cliente</h3>
-      <input type="text" value={externalLink} onChange={handleExternalLinkChange} />
+      <input className='my-textarea' type="text" value={externalLink} onChange={handleExternalLinkChange} />
     </div>
   );
 }
 
 export default ImportarDatosCliente;
-
-
-/* import React, { useState, useEffect } from 'react';
-
-function ImportarDatosCliente() {
-  const [explanation, setExplanation] = useState('Explicación breve ingresada por el cliente acá');
-
-  useEffect(() => {
-    // Fetch the explanation from a database or API
-    // In this example, we'll use a hardcoded value
-    setExplanation('Esta es una explicación breve importada desde la base de datos.');
-  }, []);
-
-  const handleExplanationChange = (event) => {
-    setExplanation(event.target.value);
-  };
-
-  return (
-    <div>
-      <h2>Descripción breve del proyecto</h2>
-      <textarea value={explanation} onChange={handleExplanationChange} />
-    </div>
-  );
-}
-
-export default ImportarDatosCliente;
-
- */

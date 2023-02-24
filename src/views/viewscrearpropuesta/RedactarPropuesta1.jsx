@@ -29,7 +29,7 @@ function RedactarPropuesta1() {
         </div>
         <div>
           <label htmlFor="description">Descripción del proyecto:</label>
-          <textarea id="description" value={description} onChange={handleDescriptionChange} placeholder="Descripción detallada de aspectos funcionales" required />
+          <textarea id="description" className='my-textarea' value={description} onChange={handleDescriptionChange} placeholder="Descripción detallada de aspectos funcionales" required />
         </div>
         <button type="submit">Guardar datos</button>
       </form>

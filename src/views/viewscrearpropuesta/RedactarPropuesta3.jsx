@@ -24,7 +24,7 @@ function RedactarPropuesta3() {
     <div className="maincontainer">
       <div>
         <h3>Otras Tecnologías a utilizar</h3>
-        <textarea
+        <textarea className='my-textarea'
           placeholder="Tecnologías separadas por comas"
           value={technologies}
           onChange={(e) => setTechnologies(e.target.value)}
@@ -32,7 +32,7 @@ function RedactarPropuesta3() {
       </div>
       <div>
         <h3>Alcance</h3>
-        <textarea
+        <textarea className='my-textarea'
           placeholder="Alcances, límites, aspectos no contemplados en el servicio"
           value={scope1}
           onChange={(e) => setScope1(e.target.value)}
@@ -40,7 +40,7 @@ function RedactarPropuesta3() {
       </div>
       <div>
         <h3>Alcance</h3>
-        <textarea
+        <textarea className='my-textarea'
           placeholder="Alcances, límites, aspectos no contemplados en el servicio"
           value={scope2}
           onChange={(e) => setScope2(e.target.value)}
