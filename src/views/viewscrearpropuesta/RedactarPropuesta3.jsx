@@ -103,11 +103,11 @@ function RedactarPropuesta3() {
       </div>
 
       <div>
-        <button id="button-skills" onClick={calculateValue}>
+        <button id="button-skills" className="consolas-font" onClick={calculateValue}>
           Calcular Valor Final
         </button>
       </div>
-      <button type="submit" onClick={handleSave}>
+      <button type="submit" className="consolas-font" onClick={handleSave}>
         Guardar datos
       </button>
     </div>

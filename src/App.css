@@ -1,6 +1,15 @@
+input::placeholder,
+textarea::placeholder {
+    font-family: 'Consolas';
+}
+
 .App {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'consolas';
     text-align: center;
+}
+
+.consolas-font {
+    font-family: 'consolas';
 }
 
 .App-logo {
@@ -42,7 +51,8 @@
 /*Desde acá es agregado al css por defecto de la app*/
 
 code {
-    font-family: 'Helvetica Neue', sans-serif;
+    /*font-family: 'Helvetica Neue', sans-serif;*/
+    font-family: 'consolas';
 }
 
 
@@ -51,10 +61,12 @@ code {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'consolas';
+    /*font-family: 'Helvetica Neue', sans-serif;*/
     font-size: 16px;
     color: #333;
-    background-color: #f5f5f5;
+    /*background-color: #f5f5f5; */
+    background-color: #ced1e1;
 }
 
 
@@ -94,7 +106,7 @@ form button[type="submit"] {
     width: 100%;
     padding: 10px;
     margin-top: 20px;
-    background-color: #007bff;
+    background-color: rgba(45, 160, 232, 0.95);
     border: none;
     border-radius: 3px;
     color: #fff;
@@ -104,7 +116,7 @@ form button[type="submit"] {
 }
 
 form button[type="submit"]:hover {
-    background-color: #0062cc;
+    background-color: rgba(45, 160, 232, 0.95);
 }
 
 
@@ -114,8 +126,8 @@ form button[type="submit"]:hover {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #007bff;
-    border: 1px solid #007bff;
+    background-color: rgba(45, 160, 232, 0.95);
+    border: 1px solid rgba(45, 160, 232, 0.95);
 }
 
 .rheostat-handle:focus {
@@ -130,7 +142,7 @@ form button[type="submit"]:hover {
 
 .rheostat-progress {
     height: 4px;
-    background-color: #007bff;
+    background-color: rgba(45, 160, 232, 0.95);
     border-radius: 4px;
 }
 
@@ -148,7 +160,8 @@ form button[type="submit"]:hover {
     border: 1px solid #e6e6e6;
     border-radius: 5px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-    font-family: 'Helvetica Neue', sans-serif;
+    /* font-family: 'Helvetica Neue', sans-serif;*/
+    font-family: 'consolas';
 }
 
 .maincontainer {
@@ -181,7 +194,7 @@ form button[type="submit"]:hover {
     width: 100%;
     padding: 10px;
     margin-top: 20px;
-    background-color: #007bff;
+    background-color: rgba(45, 160, 232, 0.95);
     border: none;
     border-radius: 3px;
     color: #fff;
@@ -215,10 +228,10 @@ form button[type="submit"]:hover {
 }
 
 #main-nav {
-    background-color: rgb(223, 223, 223);
+    background-color: #444444;
     margin: 5px;
     padding: 5px;
-    color: black;
+    color: whitesmoke;
 }
 
 
@@ -229,7 +242,7 @@ form button[type="submit"]:hover {
     width: 50%;
     margin: 10px auto 20px auto;
     padding: 10px;
-    background-color: green;
+    background-color: #444444;
     border: none;
     border-radius: 3px;
     color: #fff;
@@ -256,5 +269,6 @@ form button[type="submit"]:hover {
 /* Textos importados */
 
 .my-textarea {
-    font-family: 'Helvetica Neue', sans-serif;
+    /*    font-family: 'Helvetica Neue', sans-serif;*/
+    font-family: 'consolas';
 }

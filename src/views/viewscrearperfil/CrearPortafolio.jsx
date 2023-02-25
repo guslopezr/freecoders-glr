@@ -87,7 +87,7 @@ export default function CrearPortafolio() {
         <Form.Control as="textarea" rows={3} maxLength={500} value={text} onChange={handleChange} />
       </Form.Group>
 
-      <Button variant="primary" type="submit">
+      <Button variant="primary" type="submit" className="consolas-font" >
         Guardar Reseña
       </Button>
     </Form>

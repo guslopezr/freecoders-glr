@@ -8,7 +8,7 @@ import AbonarPropuesta from "./views/AbonarPropuesta";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <NavBar />
       <Routes>
         <Route path="/crearperfil" element={<CrearPerfil />} />

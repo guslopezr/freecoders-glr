@@ -35,7 +35,7 @@ export default function CrearOfertaValor() {
         <Form.Control type="text" placeholder="https://example.com/image.jpg" value={imageURL} onChange={handleImageUpload} />
       </Form.Group>
 
-      <Button variant="primary" type="submit">
+      <Button variant="primary" type="submit" className="consolas-font" >
         Guardar Oferta de Valor
       </Button>
     </Form>

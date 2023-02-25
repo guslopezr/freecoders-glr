@@ -29,7 +29,7 @@ export default function CrearPerfil() {
       <div>{<CrearRepo />}</div>
       <div>{<CrearOfertaValor />}</div>
       <div className="text-center mt-4">
-        <Button id='button-crearperfil' onClick={handleSaveClick} disabled={isSaving}>
+        <Button id='button-crearperfil'  className="consolas-font" onClick={handleSaveClick} disabled={isSaving}>
           {isSaving ? 'Saving...' : 'Guardar todos los cambios'}
         </Button>
       </div>

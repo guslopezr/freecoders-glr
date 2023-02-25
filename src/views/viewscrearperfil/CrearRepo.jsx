@@ -34,7 +34,7 @@ export default function CrearRepo() {
         <Form.Label>Agregar URL del repositorio</Form.Label>
         <Form.Control type="text" value={repositoryUrl} onChange={handleRepositoryUrlChange} />
       </Form.Group>
-      <Button type="submit">Guardar</Button>
+      <Button type="submit" className="consolas-font" >Guardar</Button>
     </Form>
   );
 }

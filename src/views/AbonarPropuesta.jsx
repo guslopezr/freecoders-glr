@@ -24,7 +24,7 @@ export default function AbonarPropuesta() {
       <div className='maincontainer'>{<AbonarPropuesta2/>}</div>
 
       <div className="maincontainer text-center mt-4">
-        <Button id='button-crearperfil'  onClick={handleSaveClick} disabled={isSaving}>
+        <Button id='button-crearperfil' className="consolas-font" onClick={handleSaveClick} disabled={isSaving}>
           {isSaving ? 'Guardando...' : 'Enviar Abono'}
         </Button>
       </div>

@@ -32,7 +32,7 @@ export default function CrearPropuesta() {
       <div>{<RedactarPropuesta3 />}</div>
 
       <div className="text-center mt-4">
-        <Button id='button-crearperfil' onClick={handleSaveClick} disabled={isSaving}>
+        <Button id='button-crearperfil' className="consolas-font" onClick={handleSaveClick} disabled={isSaving}>
           {isSaving ? 'Saving...' : 'Guardar Cambios'}
         </Button>
       </div>

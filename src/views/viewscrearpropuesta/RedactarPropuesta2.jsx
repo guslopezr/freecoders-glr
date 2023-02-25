@@ -63,7 +63,7 @@ function RedactarPropuesta2() {
           ))}
         </select>
       </div>
-      <button  type="submit" onClick={handleSaveButtonClick}>Guardar tecnologías</button>
+      <button  type="submit" className="consolas-font" onClick={handleSaveButtonClick}>Guardar tecnologías</button>
     
     
     </div>

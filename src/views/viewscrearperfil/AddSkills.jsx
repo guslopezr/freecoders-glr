@@ -73,7 +73,7 @@ export default function AddSkills() {
           checked={selectedLanguages.includes(language)}
         />
       ))}
-      <Button  id='button-skills' variant="primary" onClick={handleSaveLanguages}>Guardar Lenguajes</Button>
+      <Button  id='button-skills' variant="primary" className="consolas-font" onClick={handleSaveLanguages}>Guardar Lenguajes</Button>
 
       <h3>Frameworks</h3>
       {frameworks.map(framework => (
@@ -86,7 +86,7 @@ export default function AddSkills() {
           checked={selectedFrameworks.includes(framework)}
         />
       ))}
-      <Button id='button-skills' variant="primary" onClick={handleSaveFrameworks}>Guardar Frameworks</Button>
+      <Button id='button-skills' variant="primary" className="consolas-font" onClick={handleSaveFrameworks}>Guardar Frameworks</Button>
 
       <h3>Bases de datos</h3>
       {databases.map(database => (
@@ -99,7 +99,7 @@ export default function AddSkills() {
           checked={selectedDatabases.includes(database)}
         />
       ))}
-      <Button id='button-skills' variant="primary" onClick={handleSaveDatabases}>Guardar Bases de Datos</Button>
+      <Button id='button-skills' variant="primary" className="consolas-font" onClick={handleSaveDatabases}>Guardar Bases de Datos</Button>
     </div>
   );
 }

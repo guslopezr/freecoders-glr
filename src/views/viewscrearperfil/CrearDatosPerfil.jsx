@@ -59,7 +59,7 @@ export default function CrearDatosPerfil() {
         />
       </Form.Group>
 
-      <Button variant="primary" type="submit">
+      <Button variant="primary" type="submit" className="consolas-font" >
         Guardar datos
       </Button>
     </Form>
