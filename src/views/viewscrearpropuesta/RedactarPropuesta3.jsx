@@ -3,7 +3,7 @@ import { useState } from "react";
 function RedactarPropuesta3() {
   const [technologies, setTechnologies] = useState("");
   const [scope1, setScope1] = useState("");
-  const [scope2, setScope2] = useState("");
+//  const [scope2] = useState("");
   const [hours, setHours] = useState("");
   const [revisions, setRevisions] = useState("");
   const [value, setValue] = useState("");
@@ -13,7 +13,7 @@ function RedactarPropuesta3() {
     const data = {
       technologies,
       scope1,
-      scope2,
+//      scope2,
       hours,
       revisions,
       value,

@@ -22,6 +22,12 @@ export default function NavBar() {
               <NavLink id="main-nav" className={setActiveClass} to="/crearperfil">
                   Crear Perfil
               </NavLink>
+              <NavLink id="main-nav" className={setActiveClass} to="/perfilfreecoder">
+                  Perfil Freecoder
+              </NavLink>
+              <NavLink id="main-nav" className={setActiveClass} to="/contactarfreecoder">
+                  Contactar Freecoder
+              </NavLink>
               <NavLink id="main-nav" className={setActiveClass} to="/crearpropuesta">
                   Crear Propuesta
               </NavLink>

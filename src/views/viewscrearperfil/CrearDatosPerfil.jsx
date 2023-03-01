@@ -1,9 +1,5 @@
 import * as React from "react";
-import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
-import Card from "react-bootstrap/Card";
-import ListGroup from "react-bootstrap/ListGroup";
-import Badge from "react-bootstrap/Badge";
+import { useState} from "react";
 import { Form, Button } from "react-bootstrap";
 import RangeSlider from 'react-bootstrap-range-slider';
 //import '../assets/css/estilocrearperfil.css';

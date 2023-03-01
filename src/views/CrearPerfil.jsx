@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
-import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
-import Badge from 'react-bootstrap/Badge';
+import { Button } from 'react-bootstrap';
 import CrearDatosPerfil from './viewscrearperfil/CrearDatosPerfil';
 import CrearPortafolio from './viewscrearperfil/CrearPortafolio';
 import CrearOfertaValor from './viewscrearperfil/CrearOfertaValor';
