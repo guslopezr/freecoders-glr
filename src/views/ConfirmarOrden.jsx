@@ -11,7 +11,7 @@ function ConfirmRequest() {
     <>
       <div className="maincontainer">
         <div className="maincontainer">
-          <h2>!Felicitaciones!</h2>
+          <h2>¡Felicitaciones!</h2>
           <h3>Hemos enviado tu solicitud al Freecoder</h3>
         </div>
         <div className="maincontainer">

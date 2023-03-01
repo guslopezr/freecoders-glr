@@ -5,7 +5,7 @@ function Loading() {
  
   return (
     <>
-    <Button variant="outline-dark" disabled>
+    <Button id='button-crearperfil' className="consolas-font" variant="outline-dark" disabled>
       <Spinner
         as="span"
         animation="grow"

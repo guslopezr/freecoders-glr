@@ -18,10 +18,10 @@ function CommentTable() {
   }
 
   return (
-    <div>
+    <div >
       {comments.map((comment) => (
         <Card style={{ width: '30rem' }} className='text-center mb-3 col-md-5 mx-auto'>
-          <Container className=''>
+          <Container className='maincontainer'>
             <Card.Body key={comment.id}>
               <Card.Title>{comment.name}</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">{comment.date}</Card.Subtitle>
@@ -42,7 +42,7 @@ function CommentTable() {
           <Form.Control type="text" placeholder="Escribe tu comentario" />
         </Form.Group>
         <br />
-        <Button className='col-md-3' variant="outline-dark" type="submit">Enviar</Button>
+        <Button    className='col-md-3 maincontainer-button  ' variant="outline-dark" type="submit">Enviar Comentario</Button>
       </Form>
     </div>
   );

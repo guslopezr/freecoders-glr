@@ -201,6 +201,7 @@ form button[type="submit"]:hover {
     font-size: 18px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    font-family: 'consolas';
 }
 
 .maincontainer button[type="submit"]:hover {

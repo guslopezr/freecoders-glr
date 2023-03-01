@@ -24,20 +24,25 @@ function TrackingRequest() {
 
   return (
     <>
+
+<div className='maincontainer'>
+
       <Container className='text-center'>
-        <Form>
-          <Row>
-            <Col>
-              <Form.Control placeholder="Numero de seguimiento" />
-            </Col>
-            <Col>
-              <Form.Control placeholder="Nombre" />
-            </Col>
-              <Button className='col-md-2 mx-auto-2' variant="outline-dark" onClick={() => carga()}>
-                Buscar
-              </Button >
-          </Row>
-        </Form>
+      <Form className='maincontainer'>
+  <Row className="align-content-center">
+  <Col>
+  <Form.Control placeholder="Numero de seguimiento" style={{ width: '450px' }} />
+</Col>
+<br />
+<Col>
+  <Form.Control placeholder="Nombre" style={{ width: '450px' }} />
+</Col>
+    <Button id='button-crearperfil' className='col-md-2 mx-auto-2 consolas-font ' variant="outline-dark" onClick={() => carga()}>
+      Buscar
+    </Button >
+  </Row>
+</Form>
+
       </Container>
       <Container>
         <br />
@@ -46,6 +51,8 @@ function TrackingRequest() {
           <TrackingDeploy />
         }
       </Container>
+
+      </div>
     </>
   );
 }

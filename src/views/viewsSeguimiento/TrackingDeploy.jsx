@@ -4,19 +4,23 @@ import {
   } from 'react-bootstrap'
 import CommentTable from './subViewsSeguimiento/Comentarios'
 
-  import { faker } from '@faker-js/faker';
+
+
   import AlertTxt from './subViewsSeguimiento/Alert';
 
   
   const date = new Date().toLocaleDateString()
-  const randomName = faker.name.fullName();
-  
+
+  const randomName = 'Juan Freecoder';
+
   function TrackingDeploy() {
     return (
       <>
-        <Container>
+        <Container className='maincontainer'>
           <Card className='text-center'>
-            <Card.Header>Seguimiento</Card.Header>
+            <Card.Header>
+              
+              <h1>Seguimiento</h1></Card.Header>
             <Card.Body>
               <Card.Title><h2>S001</h2></Card.Title>
               <Card.Text>
