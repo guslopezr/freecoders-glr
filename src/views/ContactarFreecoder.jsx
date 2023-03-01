@@ -93,9 +93,9 @@ export default function ContactarFreecoder() {
       <div className="maincontainer">
         <div className="row">
           <div className="col-xl-3 col-md-4 col-sm-12  secc-izq maincontainer">
-          <h2>Nombre Programador: </h2>
+          <h2>Nombre Programador: Mary Freecoder</h2>
 
-            <Card>
+            <Card className="maincontainer">
               <Card.Title className="card-nombre">
                 {programadorDetalle.nombre} {programadorDetalle.apellido}
               </Card.Title>
@@ -115,6 +115,8 @@ export default function ContactarFreecoder() {
             <div className="precio-horas maincontainer">
               <h4 className="precio-texto">Valor hora</h4>
               <FaMoneyBillWave className="icono" />
+              <h4 className="precio-texto">15.000</h4>
+
             </div>
           </div>
 
@@ -140,7 +142,7 @@ export default function ContactarFreecoder() {
             <div className="maincontainer">
               <div className="stack-orden">
                 <h3 className="stack-titulo">Elige el stack requerido:</h3>
-                <Form className="stack-form">
+                <Form className="maincontainer-tecs">
                   {[
                     "Python",
                     "JavaScript",
@@ -199,7 +201,7 @@ export default function ContactarFreecoder() {
                   </div>
                 </form>
                 <Button
-                  className="button-stack"
+                  className="button-stack" type="submit"
                   onClick={handleSaveButtonClick}
                 >
                   Guardar
@@ -279,7 +281,7 @@ export default function ContactarFreecoder() {
               </Form.Group>
 
               <Button variant="primary" type="submit">
-                enviar solicitud
+                Enviar solicitud
               </Button>
             </Form>
           </div>

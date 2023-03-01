@@ -2,12 +2,9 @@ import { Card, ListGroup, Button } from "react-bootstrap";
 
 function ConfirmRequest() {
   const numeroDeSeguimiento = "123456"; // importar nombre de API o base de datos
-  const coderName = "Mary Free Coder"; // importar nombre de API o base de datos    
-  
+  const coderName = "Mary Free Coder"; // importar nombre de API o base de datos
+
   return (
-
-    
-
     <>
       <div className="maincontainer">
         <div className="maincontainer">
@@ -26,31 +23,36 @@ function ConfirmRequest() {
             />
             <Card.Body>
               <Card.Text>
-                <h4>Perfil </h4>
-                <p>Skill 1</p>
-                <p>Skill 2</p>
-                <p>Skill 3</p>
+                <div className="maincontainer">
+                  <p>Stack tecnoloógico:</p>
+                  <ul class="list-unstyled li">
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Postgres</li>
+                  </ul>
+                </div>
               </Card.Text>
             </Card.Body>
-
-            <ListGroup className="list-group-flush">
-              <ListGroup.Item>Cras justo odio</ListGroup.Item>
-              <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-              <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-            </ListGroup>
           </Card>
         </div>
 
         <div className="maincontainer">
-          <h3>Tu número de seguimiento es el {`${numeroDeSeguimiento || "000"}`}</h3>
+          <h3>
+            Tu número de seguimiento es el {`${numeroDeSeguimiento || "000"}`}
+          </h3>
           <h3>Recibirás un correo de confirmación en tu bandeja de entrada</h3>
           <p style={{ fontSize: "14px", fontWeight: "lighter" }}>
-            El Freecoder seleccionado evaluará tu proyecto y te enviará una cotización
-            dentro de 48 horas, con un enlace para realizar el pago por nuestra
-            plataforma. Recuerda revisar el SPAM.
+            El Freecoder seleccionado evaluará tu proyecto y te enviará una
+            cotización dentro de 48 horas, con un enlace para realizar el pago
+            por nuestra plataforma. Recuerda revisar el SPAM.
           </p>
-          <Button variant="primary" id='button-crearperfil' className="consolas-font" >Volver al inicio</Button>
-
+          <Button
+            variant="primary"
+            id="button-crearperfil"
+            className="consolas-font"
+          >
+            Volver al inicio
+          </Button>
         </div>
       </div>
     </>

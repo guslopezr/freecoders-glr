@@ -7,7 +7,7 @@ function CrearPropInicio() {
   useEffect(() => {
     // Fetch the name and client from a database or API
     // In this example, we'll use hardcoded values
-    setName('Jero');
+    setName('Mary Freecoder');
     setClient('Francisco');
   }, []);
 

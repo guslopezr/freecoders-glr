@@ -4,7 +4,7 @@ import {Button} from "react-bootstrap";
 //import { userName, date, randomName } from "../database";
 
 const temporaryData = {
-  userName: "Jero",
+  userName: "Mary Freecoder",
   date: "2022-10-01",
   clientName: "Francisco",
 };

@@ -36,12 +36,13 @@ export default function PerfilFreecoder() {
         <div className="row">
           <div className="col-xl-3 col-md-4 col-sm-12  ajustes-card">
             <Card className="maincontainer">
-              <Card.Title className="card-nombre">
+              <Card.Title className="card-nombre ">
                 {programadorDetalle.nombre} {programadorDetalle.apellido}
-                <h2>Nombre Programador: </h2>
+                <h2>Nombre Programador: Mary Freecoder</h2>
               </Card.Title>
               <Card.Img
                 variant="top"
+                className="maincontainer"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNGO-vi7hcHF9yzYNnDkM6QXBzWf86zJKDyw&usqp=CAU"
                 alt="foto-perfil"
               />
@@ -50,9 +51,19 @@ export default function PerfilFreecoder() {
                 {ProgramadorStack.map((area) => (
                   <ListGroup.Item key={area}>{area}</ListGroup.Item>
                 ))}
-                <p>Stack</p>
-                <p className="precio-texto">Valor hora</p>
-                <FaMoneyBillWave className="icono" />
+                <div className="maincontainer">
+                  <p>Stack tecnoloógico:</p>
+                  <ul class="list-unstyled li">
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>Postgres</li>
+                  </ul>
+                </div>
+                <div className="maincontainer">
+                  <p className="precio-texto">Valor hora</p>
+                  <FaMoneyBillWave className="icono" />
+                  <p className="precio-texto">$15.000</p>
+                </div>
               </ListGroup>
             </Card>
 
@@ -72,7 +83,7 @@ export default function PerfilFreecoder() {
               <h2>Resumen de habilidades</h2>
 
               <p className="resumen-texto">
-                Tabla programador_lenguaje.experiencia
+                Resumen principales habilidades del Freecoder
               </p>
             </div>
 
@@ -105,7 +116,10 @@ export default function PerfilFreecoder() {
               <Table>
                 <tbody>
                   <tr>
-                    <td>Portafolio 1: Explicación breve del proyecto y sus caterterísticas.</td>
+                    <td>
+                      Portafolio 1: Explicación breve del proyecto y sus
+                      caterterísticas.
+                    </td>
                     <td>
                       <a href={programadorDetalle.link_github}>
                         {programadorDetalle.link_github}
@@ -113,7 +127,10 @@ export default function PerfilFreecoder() {
                     </td>
                   </tr>
                   <tr>
-                    <td>Portafolio 2: Explicació breve del proyecto y sus caterterísticas.</td>
+                    <td>
+                      Portafolio 2: Explicació breve del proyecto y sus
+                      caterterísticas.
+                    </td>
                     <td>
                       <a href={programadorDetalle.link_vercel}>
                         {programadorDetalle.link_vercel}
@@ -124,16 +141,18 @@ export default function PerfilFreecoder() {
               </Table>
             </div>
 
-
             <h2>BIO</h2>
             <div className="bio">
               <p>{programadorDetalle.biografia}</p>
-             <p>Resumen breve del free lancer</p> 
+              <p>Resumen breve del free lancer</p>
             </div>
 
             <h2>Mi oferta de valor</h2>
             <div className="oferta-de-valor">
-              <p>Explicación breve de la oferta de valor, aspectos funcionales, técnicos y otros.</p>
+              <p>
+                Explicación breve de la oferta de valor, aspectos funcionales,
+                técnicos y otros.
+              </p>
             </div>
           </div>
         </div>

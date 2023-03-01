@@ -11,7 +11,7 @@ import CommentTable from './subViewsSeguimiento/Comentarios'
   
   const date = new Date().toLocaleDateString()
 
-  const randomName = 'Juan Freecoder';
+  const randomName = 'Francisco';
 
   function TrackingDeploy() {
     return (
