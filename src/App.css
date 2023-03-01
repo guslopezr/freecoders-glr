@@ -208,6 +208,21 @@ form button[type="submit"]:hover {
     background-color: #0062cc;
 }
 
+#maincontainer-button2[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(127, 128, 129, 0.95);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-family: 'consolas';
+}
+
 
 /* Navbar Styles */
 
@@ -272,4 +287,25 @@ form button[type="submit"]:hover {
 .my-textarea {
     /*    font-family: 'Helvetica Neue', sans-serif;*/
     font-family: 'consolas';
+}
+
+
+/*Tablas específicas*/
+
+.striped-bordered-hover {
+    border-collapse: collapse;
+}
+
+.striped-bordered-hover th,
+.striped-bordered-hover td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+.striped-bordered-hover tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+.striped-bordered-hover tbody tr:hover {
+    background-color: #f5f5f5;
 }

@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
-import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
-import Badge from 'react-bootstrap/Badge';
-import CrearDatosPerfil from './viewscrearperfil/CrearDatosPerfil';
+import { Button } from 'react-bootstrap';
+//import { useParams } from 'react-router-dom';
+//import Card from 'react-bootstrap/Card';
+//import ListGroup from 'react-bootstrap/ListGroup';
+//import Badge from 'react-bootstrap/Badge';
+//import CrearDatosPerfil from './viewscrearperfil/CrearDatosPerfil';
 import CrearPropInicio from './viewscrearpropuesta/CrearPropInicio';
 import ImportarDatosCliente from './viewscrearpropuesta/ImportarDatosCliente';
 import RedactarPropuesta1 from './viewscrearpropuesta/RedactarPropuesta1';
 import RedactarPropuesta2 from './viewscrearpropuesta/RedactarPropuesta2';
 import RedactarPropuesta3 from './viewscrearpropuesta/RedactarPropuesta3';
+
 
 
 export default function CrearPropuesta() {

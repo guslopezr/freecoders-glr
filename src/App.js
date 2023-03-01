@@ -7,6 +7,7 @@ import CrearPropuesta from "./views/CrearPropuesta";
 import AbonarPropuesta from "./views/AbonarPropuesta";
 import ConfirmarOrden from "./views/ConfirmarOrden";
 import Seguimiento from "./views/Seguimiento";
+import EnvioPropuesta from "./views/EnvioPropuesta";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path="/abonarpropuesta" element={<AbonarPropuesta />} />
         <Route path="/confirmarorden" element={<ConfirmarOrden />} />
         <Route path="/seguimiento" element={<Seguimiento />} />
+        <Route path="/enviopropuesta" element={ <EnvioPropuesta />} />
+        
       </Routes>
     </BrowserRouter>
   );

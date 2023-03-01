@@ -34,6 +34,10 @@ export default function NavBar() {
               <NavLink  id="main-nav" className={setActiveClass} to="/seguimiento">
                   Seguimiento
               </NavLink>
+              <NavLink  id="main-nav" className={setActiveClass} to="/enviopropuesta">
+                  Envío de Propuesta
+              </NavLink>
+
 
 
             </Nav>
