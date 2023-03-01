@@ -28,6 +28,12 @@ export default function NavBar() {
               <NavLink  id="main-nav" className={setActiveClass} to="/abonarpropuesta">
                   Abonar Propuesta
               </NavLink>
+              <NavLink  id="main-nav" className={setActiveClass} to="/confirmrequest">
+                  Confirm Request
+              </NavLink>
+              <NavLink  id="main-nav" className={setActiveClass} to="/seguimiento">
+                  Seguimiento
+              </NavLink>
 
 
             </Nav>
